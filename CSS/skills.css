@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    
+   
+    
+}
+body{
+    background-color:#15616d;
+    overflow: hidden;
+}
+
+nav{
+    position: relative;
+    left: 500px;
+    padding-top: 30px;
+  
+}
+.bullet{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffff; 
+}
+.home:hover{
+    color: #001524;
+
+}
+.about:hover{
+    color: #001524;
+
+}
+.skills{
+    color: #001524;
+}
+.skills:hover{
+    color: #001524;
+}
+.expi:hover{
+    color: #001524;
+}
+.interes:hover{
+    color: #001524;
+}
+#Main-container{
+    width: 100%;
+    height: 500px;
+    z-index: 2;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 120px;
+
+}
+.design1{
+    position: relative;
+    top: 100px;
+    left: -35px;
+    
+}
+.design2{
+    float: right;
+    position: relative;
+    top: -1000px;
+}
+
+#container{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 20%;
+    height: 300px;
+    position: relative;
+    left: 40px;
+    top: 60px;
+    z-index: 3;
+    background-color: #001524;
+}
+#circles{
+    display: flex;                 
+    justify-content: space-around; 
+    align-items: center;           
+    width: 60px;     
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.bilog{
+    width: 10px;                   /* Circle's width */
+    height: 10px;                  /* Circle's height */
+    border-radius: 50%;
+}
+#red{
+    background-color: #ff5757;
+}
+#yellow{
+    background-color: #ffde59;
+}
+#green{
+    background-color: #7ed957;
+}
+#wrap{
+    margin-top: 20px;
+    margin-left: 5px;
+
+}
+#wrap h4{
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#wrap ul{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    list-style-type: disc;
+
+}
